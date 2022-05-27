@@ -1,8 +1,0 @@
-name: website
-command: bash
-volumes:
-- /root/.cache/pip
-sync:
-- .:/app
-forward:
-- 9090:9090
