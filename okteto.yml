@@ -1,0 +1,8 @@
+name: eleventy
+image: okteto/eleventy  # this docker image contains all your dev tools
+workdir: /okteto
+command:
+- bash
+forward:
+  - 8080:8080
+  - 3001:3001
