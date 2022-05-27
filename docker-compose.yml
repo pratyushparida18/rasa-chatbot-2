@@ -1,0 +1,10 @@
+version: '3.4'
+services:
+  web:
+    build:
+    ports:
+      - 9090:9090
+    env_file:
+      - .env
+volumes:
+  data:
